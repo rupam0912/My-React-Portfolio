@@ -202,7 +202,7 @@ export const projects = [
   },
   {
     name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    desc: "Lorem ipsum dolors sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     github: "https://github.com/1hanzla100",
     link: "https://example.com",
   },

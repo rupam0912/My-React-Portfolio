@@ -10,22 +10,24 @@ import Experience from "./containers/Experience";
 import Projects from "./containers/Projects";
 import GithubProfile from "./containers/GithubProfile";
 import Feedbacks from "./containers/Feedbacks";
+import Certificate from "containers/Certificate";
 
 import "./assets/vendor/nucleo/css/nucleo.css";
 import "./assets/vendor/font-awesome/css/font-awesome.min.css";
 import "./assets/css/argon-design-system-react.css";
 
 ReactDOM.render(
-	<>
-		<Navigation />
-		<Greetings />
-		<Skills />
-		<Proficiency />
-		<Education />
-		<Experience />
-		<Feedbacks />
-		<Projects />
-		<GithubProfile />
-	</>,
-	document.getElementById("root")
+  <>
+    <Navigation />
+    <Greetings />
+    <Skills />
+    <Proficiency />
+    <Education />
+    <Experience />
+    <Feedbacks />
+    <Projects />
+    <Certificate />
+    <GithubProfile />
+  </>,
+  document.getElementById("root")
 );

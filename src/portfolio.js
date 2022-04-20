@@ -8,9 +8,9 @@ export const greetings = {
   name: "Rupam Sinha",
   title: "Hi all, I'm Rupam",
   description:
-    "A passionate Full Stack Developer and Azure certified Cloud Enthusiastic having a 2+ years rich experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries/frameworks and deploying/maintaining them on Cloud.",
+    "A passionate Full Stack Developer and Azure certified Cloud Enthusiastic having almost 3 years rich experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries/frameworks and deploying/maintaining them on Cloud.",
   resumeLink:
-    "https://drive.google.com/file/d/1YZY4-HrabkB0KuQrwLohCk18qCY0kKXZ/view?usp=sharing",
+    "https://drive.google.com/file/d/1hfRHNMZF7ydsUIueOBiCeSdpVlqWEQO4/view?usp=sharing",
 };
 
 export const openSource = {
@@ -110,16 +110,16 @@ export const skillsSection = {
 
 export const SkillBars = [
   {
-    Stack: "Backend Design", //Insert stack or technology you have experience in
+    Stack: "Frontend Design", //Insert stack or technology you have experience in
     progressPercentage: "90", //Insert relative proficiency in percentage
   },
   {
-    Stack: "Frontend",
+    Stack: "Backend",
     progressPercentage: "70",
   },
   {
     Stack: "Programming",
-    progressPercentage: "60",
+    progressPercentage: "80",
   },
   {
     Stack: "Azure",
@@ -160,10 +160,16 @@ export const experience = [
     company: "Tredence Analytics",
     companylogo: Tredence,
     date: "July 2021 – Present",
-    desc: "Part of Tredence Studio team - an analytics platform",
+    desc: "Part of Tredence Studio - the Product Engineering division",
     descBullets: [
-      "Implemented features for Odyssey - a pureplay SaaS product for Product Management",
-      "Getting trained in Azure",
+      "Building a Revenue Growth Management System that will help CPG customers to boost their Profit & Sales",
+      "Implementing Figma designs using React js & Material UI",
+      "Maintaining complex state management & data flow using Redux",
+      "Designing intutive & interactive charts using React Apexcharts library",
+      "Craeting REST APIs based on business logic",
+      "Interacting with Azure Blob storage, Graph service",
+      "Deploting application in Azure App service",
+      "Updating Azure DevOps Board",
     ],
   },
   {
@@ -174,7 +180,7 @@ export const experience = [
     desc: "Part of Wipro's Infor Practice Team",
     descBullets: [
       "Served Georgia-Pacific (Pulp manufacturer under Koch Industries) as a Form Developer",
-      "Implemented 20+ business forms using Infor M3, IDM, JavaScript & XML",
+      "Implemented 20+ business forms using JavaScript, React js & XML",
       "Created OAuth 2.0 flow between Infor IDM & Client's homegrown ERP system",
       "Part of Integration team & helped the team to develop a CI/CD pipeline using Azure DevOps",
       "RFP study using Infor Coleman AI for Bristol Water - Pump Anomaly Detection using Machine Learning",
@@ -191,20 +197,20 @@ export const experience = [
 
 export const projects = [
   {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    link: "https://example.com",
+    name: "Making an UI Shortener APP using MERN stack",
+    desc: "Used React js, Tailwind css, Node js, npm packages. This webapp can short any big url & user can save it for future purpose. Implemented multitype user authentication & created one admin dashboard",
+    link: "http://shortly-app1.herokuapp.com/",
   },
   {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    github: "https://github.com/1hanzla100",
+    name: "Chat Application",
+    desc: "Used Node js, Express js, Socket.io, React js, Material UI. Users can create their own chatroom & do chatting",
+    github: "https://github.com/rupam0912/node-v3-chat-app",
+    link: "https://instachat-node-app.herokuapp.com/",
   },
   {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolors sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    github: "https://github.com/1hanzla100",
-    link: "https://example.com",
+    name: " Building a CI/CD Pipeline - Applebite",
+    desc: "Edureka DevOps course Capstone Project. To make a smooth deployment, have to automate the complete development process. Used Github & Jenkins for CI, Docker for containerization & Ansible for config management.",
+    link: "https://tinyurl.com/2w87z53f",
   },
 ];
 

@@ -27,7 +27,9 @@ const GithubProfileCard = ({prof}) => {
                       </p>
                       <p className="text-white mt-3">
                           {prof.bio}<br/>
-                          call me: +91-7908175983
+                          Call me: +91-7908175983
+                          <br/>
+                          Wapp me: 7479374977
                       </p>
                       <div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
                         <i className="ni ni-pin-3 text-info mr-2" />

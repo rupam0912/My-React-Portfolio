@@ -3,12 +3,13 @@ import emoji from "react-easy-emoji";
 import Guvi from "./assets/img/icons/common/Guvi.png";
 import Tredence from "./assets/img/icons/common/Tredence.jpg";
 import Wipro from "./assets/img/icons/common/Wipro.png";
+import Oracle from "./assets/img/icons/common/Oracle.png";
 
 export const greetings = {
   name: "Rupam Sinha",
   title: "Hi all, I'm Rupam",
   description:
-    "A passionate Full Stack Developer and Azure certified Cloud Enthusiastic having almost 3 years rich experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries/frameworks and deploying/maintaining them on Cloud.",
+    "A passionate Full Stack Developer and Azure certified Cloud Enthusiastic having almost 4+ years rich experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries/frameworks and deploying/maintaining them on Cloud.",
   resumeLink:
     "https://drive.google.com/file/d/1hfRHNMZF7ydsUIueOBiCeSdpVlqWEQO4/view?usp=sharing",
 };
@@ -125,6 +126,10 @@ export const SkillBars = [
     Stack: "Azure",
     progressPercentage: "40",
   },
+  {
+    Stack: "Docker/Kubernetes/Helm",
+    progressPercentage: "60",
+  },
 ];
 
 export const educationInfo = [
@@ -156,10 +161,26 @@ export const educationInfo = [
 
 export const experience = [
   {
+    role: "Member Of Technical Staff",
+    company: "Oracle",
+    companylogo: Oracle,
+    date: "June 2022 - Present",
+    desc: "Part of CGIU - Communication Global Industry Unit",
+    descBullets: [
+      "Building High fidelity screens on Rapid UI( a framework designed on Preact js/Oracle JET MVVM)",
+      "Interaction with Different Micro services in 5G layer along with 3rd party services like Prometheus, Egress server & Alarm Services",
+      "SSL configuration using Kubernetes secret & Helm Chart",
+      "Deployment & Maintaining of application on Private cloud server ( Bastion Host )/OCI using GitLab CI/CD",
+      "Writing unit test cases using JEST & Preact-testing-library",
+      "Writing automated test suites in Cypress.",
+      "Well versed with SonarQube code smells & how to fix them to improve code quality",
+    ],
+  },
+  {
     role: "Senior Software Engineer",
     company: "Tredence Analytics",
     companylogo: Tredence,
-    date: "July 2021 – Present",
+    date: "July 2021 - Present",
     desc: "Part of Tredence Studio - the Product Engineering division",
     descBullets: [
       "Building a Revenue Growth Management System that will help CPG customers to boost their Profit & Sales",
@@ -176,7 +197,7 @@ export const experience = [
     role: "Project Engineer",
     company: "Wipro",
     companylogo: Wipro,
-    date: "June 2019 – July 2021",
+    date: "June 2019 - July 2021",
     desc: "Part of Wipro's Infor Practice Team",
     descBullets: [
       "Served Georgia-Pacific (Pulp manufacturer under Koch Industries) as a Form Developer",
@@ -190,7 +211,7 @@ export const experience = [
     role: "Trainee",
     company: "Guvi",
     companylogo: Guvi,
-    date: "May 2020 – October 2020",
+    date: "May 2020 - October 2020",
     desc: "Full Stack Development Course",
   },
 ];

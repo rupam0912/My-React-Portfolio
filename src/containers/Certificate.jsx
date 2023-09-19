@@ -26,6 +26,11 @@ const items = [
     caption: "",
   },
   {
+    src: "/Javascript.jpg",
+    altText: "",
+    caption: "",
+  },
+  {
     src: "/React.jpg",
     altText: "",
     caption: "",

@@ -11,7 +11,7 @@ export const greetings = {
   description:
     "A passionate Full Stack Developer and Azure certified Cloud Enthusiastic having almost 4+ years rich experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries/frameworks and deploying/maintaining them on Cloud.",
   resumeLink:
-    "https://drive.google.com/file/d/1hfRHNMZF7ydsUIueOBiCeSdpVlqWEQO4/view?usp=sharing",
+    "https://drive.google.com/file/d/1S3UY7QwhhfP6wP1ahYplQV9B8I-SH3M4/view?usp=sharing",
 };
 
 export const openSource = {

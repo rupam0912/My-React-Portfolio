@@ -9,9 +9,9 @@ export const greetings = {
   name: "Rupam Sinha",
   title: "Hi all, I'm Rupam",
   description:
-    "A passionate Full Stack Developer and Azure certified Cloud Enthusiastic having almost 4+ years rich experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries/frameworks and deploying/maintaining them on Cloud.",
+    "A passionate Full Stack Developer and Azure certified Cloud Enthusiastic having almost 4.7+ years rich experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries/frameworks and deploying/maintaining them on Cloud.",
   resumeLink:
-    "https://drive.google.com/file/d/1GwUeyri4bNBMqLpHFz4Uk5hAkHcUoBe6/view?usp=sharing",
+    "https://drive.google.com/file/d/1DM1-3XvmeXooi18-y9nvCdLuhSmx4w0d/view?usp=sharing",
 };
 
 export const openSource = {

@@ -136,7 +136,7 @@ export const SkillBars = [
 export const educationInfo = [
   {
     schoolName: "International School of Business & Research",
-    subHeader: "PGDM in Business Analytics",
+    subHeader: "Executive PGDM in Business Analytics",
     duration: "June 2024 - June 2026",
     desc: "Bangalore, Karnataka",
     descBullets: ["Currently Exploring new fileds like Generative AI, ML & Analytics in Finance/Retail"],

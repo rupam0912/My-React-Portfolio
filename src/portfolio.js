@@ -4,12 +4,13 @@ import Guvi from "./assets/img/icons/common/Guvi.png";
 import Tredence from "./assets/img/icons/common/Tredence.jpg";
 import Wipro from "./assets/img/icons/common/Wipro.png";
 import Oracle from "./assets/img/icons/common/Oracle.png";
+import Commvault from "./assets/img/icons/common/Commvault.jpeg"
 
 export const greetings = {
   name: "Rupam Sinha",
   title: "Hi all, I'm Rupam",
   description:
-    "A passionate Full Stack Developer and Azure certified Cloud Enthusiastic having almost 4.7+ years rich experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries/frameworks and deploying/maintaining them on Cloud.",
+    "A passionate Full Stack Developer and Azure certified Cloud Enthusiastic having almost 5+ years rich experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries/frameworks and deploying/maintaining them on Cloud.",
   resumeLink:
     "https://drive.google.com/file/d/1DM1-3XvmeXooi18-y9nvCdLuhSmx4w0d/view?usp=sharing",
 };
@@ -134,6 +135,13 @@ export const SkillBars = [
 
 export const educationInfo = [
   {
+    schoolName: "International School of Business & Research",
+    subHeader: "PGDM in Business Analytics",
+    duration: "June 2024 - June 2026",
+    desc: "Bangalore, Karnataka",
+    descBullets: ["Currently Exploring new fileds like Generative AI, ML & Analytics in Finance/Retail"],
+  },
+  {
     schoolName: "Academy of Technology",
     subHeader: "B.Tech in Computer Science & Engineering",
     duration: "April 2015 - June 2019",
@@ -160,6 +168,16 @@ export const educationInfo = [
 ];
 
 export const experience = [
+  {
+    role: "Senior Engineer",
+    company: "Commvault",
+    companylogo: Commvault,
+    date: "June 2024 - Present",
+    desc: "Part of Threatwise Product Engineering",
+    descBullets: [
+      "Learning PHP & Angular js"
+    ],
+  },
   {
     role: "Member Of Technical Staff",
     company: "Oracle",
